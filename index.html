@@ -1,3 +1,20 @@
+<head>
+<meta charset="UTF-8">
+<meta name="language" content="Spanish">
+<meta http-equiv="content-language" content="es">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="Manu Reta">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" property="og:description" content='Centro Cultural "Desde el Pie" - Sala de espectaculos y talleres artisticos.  Genocida Sarmiento y Sargento Cabral (Ex hotel Regina), Chajarí - Entre Ríos - Argentina' />
+<meta name="title" property="og:title" title='Centro Cultural "Desde el Pie"'>
+<meta name="twitter:card" content="photo" />
+<meta name="twitter:site" content="@ccdep" />
+<meta name="twitter:title" content='Centro Cultural "Desde el Pie"' />
+<meta name="twitter:image" content="http://desdeelpie.retamozo.com.ar/ccdep.png" />
+<meta name="twitter:url" content="http://desdeelpie.retamozo.com.ar" />
+<meta name="twitter:creator" content="@cyberoliverio" />
+</head>
+<link href="http://desdeelpie.retamozo.com.ar/ccdep.png" rel="image_src" />
 <style>
 body{
   text-align: center;
@@ -5,17 +22,50 @@ body{
 }
 div{
 align-content: center;
-height: 100%;
-width: 100%;}
-h1{color: red;font-size: 100px;}
-h2{color: gray}
+margin: auto}
+h1{color: red;font-size: 400%;}
+h2{color: red;font-size: 600%;}
+h3{color: gray}
+p{color:#CCCCCC}
+#resumen{font-size: 140%}
 </style>
-<div>
-  <br/>
-  <br/>
-<h1>Centro Cultural Desde el Pie</h1>
-<br/>
-<h2>(CCDEP)</h2>
-<br/>
+<body>
+  <script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '378769302470995',
+      xfbml      : true,
+      status     : true,      
+      version    : 'v2.8'
+    });
+  };
 
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/es_LA/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<div>
+  <div>
+<h1>Centro Cultural</h1>
+<h2>"Desde el Pie"</h2>
+<h3>(CCDEP)</h3>
+<br/>
+<p id="resumen">Sala de espectáculos y talleres artísticos.</p>
 </div>
+<div>
+<p>
+<br/> Genocida Sarmiento y Sargento Cabral (Ex hotel Regina)
+<br/>Chajarí - Entre Ríos - Argentina.</p>
+</div>
+<div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
+</div>
+</body>
